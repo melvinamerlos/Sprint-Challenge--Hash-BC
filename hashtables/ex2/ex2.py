@@ -13,7 +13,7 @@ class Ticket:
 
 
 def reconstruct_trip(tickets, length):
-    hashtable = HashTable(length)
+    ht = HashTable(length)
     route = [None] * length
 
     """
